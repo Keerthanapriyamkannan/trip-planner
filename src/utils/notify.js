@@ -1,0 +1,1 @@
+export function showInAppNotification(title, message) { try { alert(title + '\n\n' + message); } catch (e) { console.log(title, message); } }
